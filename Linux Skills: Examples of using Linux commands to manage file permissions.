@@ -1,0 +1,17 @@
+Command-Line Proficiency:
+Utilized the Linux command-line interface to interact with the operating system, navigate directory structures, and execute security-related tasks.
+
+File Permission Management:
+Applied commands to view and modify user, group, and world permissions for critical system files to ensure data privacy.
+
+Access Control Enforcement:
+Managed file ownership and access levels to uphold the principle of confidentiality, preventing unauthorized users from viewing or modifying sensitive assets.
+
+Security Auditing via CLI:
+Used Linux tools to identify improperly configured permissions that could lead to unauthorized access or potential malware deployment.
+
+System Resource Monitoring:
+Executed instructions telling the computer to monitor system activity for signs of malicious activity or unauthorized intrusions.
+
+
+Example of commands used: chmod (to change permissions), chown (to change ownership), or ls -l (to view permissions) as well as Automations to remove human error.

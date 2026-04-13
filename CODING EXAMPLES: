@@ -1,0 +1,41 @@
+Linux: Managing File Permissions:
+
+# View detailed file permissions to identify vulnerabilities
+ls -l /var/www/html/config.php
+
+# Remove 'world' read/write access to a sensitive file (Hardening)
+chmod 640 /etc/shadow
+
+# Change ownership of a web directory to a specific service user
+chown www-data:www-data /var/www/html/uploads
+
+(managing access control and prevent unauthorized access to critical system files.)
+
+SQL: Filtering for Security Threats:
+
+/* Query to find potential Brute Force attacks (Multiple failed logins) */
+SELECT user_id, device_ip, login_time
+FROM login_logs
+WHERE success = FALSE
+AND login_time > '2026-04-13 20:00:00'
+ORDER BY login_time DESC;
+
+/* Searching for indicators of a SQL Injection attempt in web logs */
+SELECT * FROM web_traffic_logs
+WHERE query_string LIKE '%OR 1=1%' 
+OR query_string LIKE '%DROP TABLE%';
+
+(analyzing data points to identify password attacks and web vulnerabilities.)
+
+Python: Automating Security Tasks:
+
+# A simple script to check if a specific suspicious IP is in a blacklist
+blacklist = ["192.168.1.100", "10.0.0.5", "172.16.0.50"]
+incoming_ip = "10.0.0.5"
+
+if incoming_ip in blacklist:
+    print(f"ALERT: Potential threat detected from {incoming_ip}!")
+else:
+    print("Traffic appears authorized.")
+
+(demonstration of my mindset and the ability to use programming languages to monitor for threat actors.)

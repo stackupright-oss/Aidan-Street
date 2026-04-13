@@ -1,0 +1,16 @@
+Project: Network Structure and Security Analysis[10/4/2025] |
+
+Google Cybersecurity Certificate ProjectObjective:
+Analyzed network traffic and structure to identify vulnerabilities and ensure the confidentiality, integrity, and availability of data.
+
+Tools Used:
+Utilized network protocol analyzers (packet sniffers) to capture and inspect live data traffic within a network.
+
+Traffic Inspection:
+Examined network packets to identify unusual patterns, such as unauthorized access attempts or signs of malicious activity.
+
+Vulnerability Identification:
+Identified risks within the communication and network security domain, such as unencrypted plaintext data that should be converted to secure ciphertext.
+
+Defensive Recommendations:
+Suggested the implementation of Intrusion Detection Systems (IDS) to monitor for possible intrusions and provide real-time alerts.

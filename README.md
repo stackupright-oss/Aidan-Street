@@ -16,6 +16,10 @@ Networking
 Artificial intelligence 
 Graphic Design
 Sound design and audio mastering
+Artifical Intelligence
+Generative media
+Prompt Hacking
+AI intergration
 
 ![Create_a_professional_202604132030](https://github.com/user-attachments/assets/327d2d96-fc49-4deb-a29d-72be0b9cb8cb)
 
